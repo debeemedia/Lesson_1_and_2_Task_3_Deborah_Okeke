@@ -24,7 +24,15 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-	line-height: 1;
+	/* line-height: 1; */
+
+	/* the adjustmets to body below are mine */
+
+	height: 500px;
+	font-size: 18px;
+	padding: 20px;
+	line-height: 1.5em;
+	color: #080331;
 }
 
 ol, ul {
@@ -50,3 +58,88 @@ table {
 
 
 /* Write your css below here */
+
+* {
+	box-sizing: border-box;
+}
+
+header {
+	background-color: #34299b;
+	padding: 10px;
+	text-align: center;
+	position: sticky;
+	top: 0;
+}
+
+header span a {
+	text-decoration: none;
+	color: #e0dcfc;
+	font-size: 1.5em;
+}
+
+header img {
+	height: 50px;
+}
+
+nav {
+	margin-bottom: 50px;
+}
+
+nav ul li {
+	margin-top: 10px;
+	display: inline-flex;
+	list-style-type: none;
+	justify-content: space-around;
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #080331;
+	text-align: center;
+}
+
+nav ul li a:hover {
+	background-color: #080331;
+	color: #e0dcfc;
+	padding: 5px;
+}
+
+section {
+	padding: 10px;
+}
+
+article {
+	margin-bottom: 30px;
+}
+
+h2 {
+	font-size: 1.2em;
+	margin-bottom: 5px;
+}
+
+footer {
+	position: sticky;
+	bottom: 0;
+	width: 100%;
+	margin-top: 50px;
+	padding: 20px;
+	background-color: #34299b;
+	color: #e0dcfc;
+	height: 150px;
+	text-align: center;
+}
+
+footer div {
+	padding-bottom: 10px;
+}
+
+footer div.bold {
+	font-weight: bolder;
+}
+
+footer div.italic {
+	font-style: italic;
+}
